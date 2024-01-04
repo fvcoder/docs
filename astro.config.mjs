@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://docs.fvcoder.com',
 	integrations: [
 		starlight({
 			title: 'fvcoder docs',
