@@ -1,0 +1,25 @@
+---
+title: Welcome to fvcoder docs
+description: Documentation of my Open Source projects.
+template: splash
+hero:
+  tagline: Documentation of my Open Source projects.
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: View on Github
+      link: https://github.com/fvcoder?tab=repositories
+      icon: external
+      variant: primary
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+## Proyectos
+<CardGrid>
+  <LinkCard
+    title="wasap-core"
+    description="It's a set of tools for WhatsApp bots, but it can be useful for different chatbot projects."
+    href="/en/wasap-core"
+  />
+</CardGrid>

@@ -5,9 +5,15 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: {
-				github: 'https://github.com/withastro/starlight',
+			title: 'fvcoder docs',
+			defaultLocale: 'en',
+			locales: {
+				en: {
+					label: 'English',
+				},
+				es: {
+					label: 'Español',
+				}
 			},
 			sidebar: [
 				{
