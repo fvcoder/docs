@@ -17,15 +17,17 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'wasap-core',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+						{
+							label: 'start',
+							translations: {
+								es: "Inicio",
+								en: "Get Started"
+							},
+							link: '/wasap-core/start'
+						}
+					]
 				},
 			],
 		}),
